@@ -2,7 +2,13 @@
 {
     public class Enums
     {
-        public enum SortBy
+        public enum SearchBy
+        {
+            Title,
+            Genre,
+        }
+
+        public enum OrderBy
         {
             Title,
             Release_Date,
